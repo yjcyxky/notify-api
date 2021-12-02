@@ -1,0 +1,1 @@
+(ns notify-api.adapter.email)
