@@ -1,4 +1,4 @@
-(defproject org.clojars.yjcyxky/notify-api "0.1.0"
+(defproject com.github.yjcyxky/notify-api "0.1.0"
   :description "Notify someone with something by email, dingtalk etc."
   :url "https://github.com//"
   :license {:name "Eclipse Public License"
@@ -18,7 +18,7 @@
           :source-uri "https://github.com/yjcyxky/notify-api/blob/{version}/{filepath}#L{line}"}
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.10.0"]]}}
   :deploy-repositories [["releases" :clojars]]
-  :aliases {"update-readme-version" ["shell" "sed" "-i" "s/\\\\[org\\.clojars\\.yjcyxky\\\\/notify-api \"[0-9.]*\"\\\\]/[org\\.clojars\\.yjcyxky\\\\/notify-api \"${:version}\"]/" "README.md"]}
+  :aliases {"update-readme-version" ["shell" "sed" "-i" "s/\\\\[com\\.github\\.yjcyxky\\\\/notify-api \"[0-9.]*\"\\\\]/[com\\.github\\.yjcyxky\\\\/notify-api \"${:version}\"]/" "README.md"]}
   :release-tasks [["shell" "git" "diff" "--exit-code"]
                   ["change" "version" "leiningen.release/bump-version"]
                   ["change" "version" "leiningen.release/bump-version" "release"]

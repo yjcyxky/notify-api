@@ -1,12 +1,10 @@
 # notify-api
-[![Build Status](https://travis-ci.org//.svg?branch=master)](https://travis-ci.org//)
-[![codecov](https://codecov.io/gh///branch/master/graph/badge.svg)](https://codecov.io/gh//)
 [![Clojars Project](https://img.shields.io/clojars/v/org.clojars.yjcyxky/notify-api.svg)](https://clojars.org/org.clojars.yjcyxky/notify-api)
 
 Notify someone with something by email, dingtalk etc.
 
 ```clj
-[org.clojars.yjcyxky/notify-api "0.1.0"]
+[com.github.yjcyxky/notify-api "0.1.0"]
 ```
 
 ## Usage
